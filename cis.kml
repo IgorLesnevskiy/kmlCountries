@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>World Country Borders KML</name>
+		<Style id='Style0-point-1'>
+			<IconStyle>
+				<color>64FFFFFF</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-point-1-hover'>
+			<IconStyle>
+				<color>64FFFFFF</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-multi_geometry-4'>
+			<IconStyle>
+				<color>64828282</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+
+			<Style id='my_style5'>
+				<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>6414F0FF</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>6414F0FF</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Armenia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>45.153872,41.198603 46.00194,40.22555 45.595819,39.978045 46.541384,39.56444 46.540377,38.875589 46.178247,38.84115 45.819986,39.549723 45.083323,39.768045 44.778864,39.706385 44.347216,40.02389 43.657495,40.108599 43.75194,40.74 43.460772,41.112963 45.022943,41.297052 45.153872,41.198603</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>45.009993,41.033052 45.045271,41.035273 45.001112,41.088881 45.009993,41.033052</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>45.195822,40.99777 45.229162,40.969152 45.245272,40.976942 45.195822,40.99777</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>45.573053,40.63249 45.517492,40.665541 45.513052,40.607222 45.573053,40.63249</coordinates></LinearRing></innerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Azerbaijan</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>45.083323,39.768045 45.819986,39.549723 46.178247,38.84115 45.004435,39.416384 44.813044,39.630816 44.778864,39.706385 45.083323,39.768045</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>45.513052,40.607222 45.517492,40.665541 45.573053,40.63249 45.513052,40.607222</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>45.245272,40.976942 45.229162,40.969152 45.195822,40.99777 45.245272,40.976942</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>45.045271,41.035273 45.009993,41.033052 45.001112,41.088881 45.045271,41.035273</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>46.571383,41.871935 47.766932,41.196093 48.583956,41.835772 49.528048,40.662767 50.374994,40.262217 49.488047,40.150537 48.888285,38.442408 48.020823,38.835543 48.359789,39.385218 47.976664,39.719233 46.540377,38.875589 46.541384,39.56444 45.595819,39.978045 46.00194,40.22555 45.153872,41.198603 45.022943,41.297052 45.336657,41.462496 46.520823,41.04999 46.693872,41.312204 46.194429,41.685823 46.451754,41.897058 46.571383,41.871935</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Belarus</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>26.613209,55.674835 28.168011,56.150154 30.926247,55.60257 31.02972,55.043327 30.781387,54.79361 31.844162,54.064438 31.764225,53.80262 32.741104,53.463051 31.266941,53.024712 31.783886,52.108047 30.943096,52.073792 30.551414,51.251846 25.775829,51.939156 24.396664,51.886658 23.604633,51.527695 23.63861,52.079437 23.1654,52.282276 23.94083,52.732208 23.50404,53.947044 25.785275,54.160545 25.547497,54.332771 25.788887,54.87027 26.819717,55.281105 26.45583,55.341377 26.613209,55.674835</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Kazakhstan</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>50.116104,44.83804 49.978867,44.956383 50.11277,45.077492 50.116104,44.83804</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>50.291664,44.949997 50.265549,45.036659 50.342766,45.083054 50.291664,44.949997</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>53.024994,46.2286 52.960274,46.266388 53.046387,46.367493 53.097488,46.29666 53.024994,46.2286</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>69.18553,55.34388 70.843323,55.301933 71.27887,54.690269 70.996933,54.339157 71.185532,54.103325 72.196091,54.137497 72.051651,54.387772 72.468597,53.908882 72.613312,54.145271 73.763885,54.065544 73.238586,53.64444 73.437195,53.436104 74.429153,53.4786 76.811646,54.447769 76.52165,53.993881 77.908035,53.271103 80.077957,50.758087 80.687836,51.31472 81.468048,50.742218 83.456375,51.002495 84.363037,50.212212 85.014435,50.075829 85.258606,49.591377 86.191086,49.472488 86.774994,49.788887 86.616653,49.587212 87.34821,49.092621 86.87469,49.110825 86.5961,48.53611 85.759155,48.387772 85.52931,47.060165 84.75943,46.826385 83.040543,47.212212 82.31776,45.570534 82.649429,45.43026 82.56165,45.129417 81.688309,45.350815 79.871094,44.904976 80.520828,44.732475 80.36276,44.125244 80.817215,43.156067 80.376648,43.025238 80.578598,42.891075 80.171921,42.660507 80.234024,42.19622 79.194702,42.795792 75.664429,42.807457 74.293594,43.216904 73.583878,43.038574 73.519714,42.408 71.747208,42.823586 71.171097,42.691353 70.97081,42.254669 69.056366,41.379433 68.455261,40.597771 67.935532,41.183327 66.719986,41.174995 66.526382,42.003052 66.02916,42.003052 66.123871,42.996941 65.82193,42.877213 64.931366,43.73777 62.025108,43.484787 58.569717,45.571106 55.99749,45.001106 56.000961,41.328453 55.45694,41.286659 54.17305,42.337212 53.014999,42.138885 52.440071,41.740936 52.738327,42.710274 51.265549,43.153046 50.839989,44.193047 50.239433,44.576385 51.570274,44.513885 50.953049,44.861938 51.405266,45.370544 53.228043,45.337769 52.733047,45.549438 53.085823,46.00722 53.164154,46.31721 52.996658,46.488045 53.194153,46.715 51.18999,47.114716 49.222527,46.346306 48.560547,46.564995 49.027206,46.776093 48.20443,47.704987 47.383324,47.68888 47.122765,48.27166 46.499161,48.417496 47.062767,49.142769 46.79583,49.339714 46.92944,49.863609 47.52083,50.43638 48.25166,49.869713 48.796944,49.941933 48.697487,50.59193 50.7733,51.76918 51.303047,51.479713 52.338326,51.782211 52.603325,51.45694 53.428604,51.491661 54.506386,50.856941 54.523933,50.528839 54.647217,51.036942 55.69249,50.532494 56.510826,51.083328 57.481934,50.864716 58.33777,51.156097 59.542496,50.478325 60.04361,50.863327 61.381378,50.783607 61.685822,51.265831 60.00222,51.958328 61.061935,52.342491 60.694153,52.680824 61.099159,52.981659 62.118324,53.004166 61.184715,53.306656 61.577492,53.513329 60.905548,53.62027 61.226936,53.811935 61.01416,53.947487 62.547493,53.879433 63.172218,54.186378 65.216385,54.318886 65.483322,54.638046 69.18553,55.34388</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+	<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Kyrgyzstan</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>80.234024,42.19622 78.08083,41.040787 76.873871,41.014107 76.345825,40.35022 75.697205,40.29911 75.578049,40.647995 74.86026,40.519386 73.994431,40.046043 73.655685,39.454826 72.248596,39.19186 71.473038,39.6213 70.997757,39.40094 69.306091,39.539436 69.540817,40.131378 70.498032,39.90683 70.98204,40.24484 71.710541,40.145767 73.173035,40.822998 72.19548,41.006592 71.69136,41.556335 71.41804,41.118553 70.187195,41.52829 71.27638,42.195511 70.97081,42.254669 71.171097,42.691353 71.747208,42.823586 73.519714,42.408 73.583878,43.038574 74.293594,43.216904 75.664429,42.807457 79.194702,42.795792 80.234024,42.19622</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Moldova</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>28.119717,46.854404 26.634995,48.257164 27.755554,48.451385 29.141937,47.986092 29.184441,47.443047 29.949997,46.814156 30.11694,46.3861 28.994434,46.478325 28.971935,46.006653 28.21484,45.448647 28.119717,46.854404</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Tajikistan</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>74.915741,37.237328 73.307205,37.462753 71.6772,36.67601 71.429428,37.07583 71.591934,37.902618 71.252777,37.922035 71.363037,38.248497 70.967209,38.472115 70.16138,37.933372 70.155823,37.536232 69.515823,37.58083 69.315262,37.11527 68.887772,37.3386 68.05801,36.932526 67.779877,37.185822 68.384155,38.195541 68.123871,38.98555 67.376373,39.21249 67.441956,39.483582 68.540268,39.55471 69.009995,40.089714 68.60081,40.178329 69.308029,40.20138 69.356094,40.772491 69.732483,40.638603 70.42387,41.049118 70.796799,40.725594 70.37553,40.376404 70.98204,40.24484 70.498032,39.90683 69.540817,40.131378 69.306091,39.539436 70.997757,39.40094 71.473038,39.6213 72.248596,39.19186 73.655685,39.454826 73.817764,38.607712 74.856644,38.470482 74.902771,37.647156 75.187485,37.406586 74.915741,37.237328</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Uzbekistan</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>64.383026,38.953125 62.551102,39.934158 61.874161,41.12555 60.140274,41.381104 60.014442,42.217491 58.780548,42.658043 58.164436,42.651932 58.515549,42.304436 58.026604,42.50464 56.986938,41.893051 57.044716,41.260277 56.000961,41.328453 55.99749,45.001106 58.569717,45.571106 62.025108,43.484787 64.931366,43.73777 65.82193,42.877213 66.123871,42.996941 66.02916,42.003052 66.526382,42.003052 66.719986,41.174995 67.935532,41.183327 68.455261,40.597771 69.056366,41.379433 70.97081,42.254669 71.27638,42.195511 70.187195,41.52829 71.41804,41.118553 71.69136,41.556335 72.19548,41.006592 73.173035,40.822998 71.710541,40.145767 70.98204,40.24484 70.37553,40.376404 70.796799,40.725594 70.42387,41.049118 69.732483,40.638603 69.356094,40.772491 69.308029,40.20138 68.60081,40.178329 69.009995,40.089714 68.540268,39.55471 67.441956,39.483582 67.376373,39.21249 68.123871,38.98555 68.384155,38.195541 67.779877,37.185822 66.53773,37.366379 66.643875,38.003052 64.383026,38.953125</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Georgia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>41.547623,42.405777 41.428596,42.73804 40.002968,43.379265 40.253387,43.58252 42.849991,43.179153 43.911934,42.583321 44.93471,42.760277 46.451752,41.897057 46.194427,41.685822 46.693871,41.312202 46.520821,41.049988 45.336655,41.462494 45.022942,41.29705 43.46077,41.112961 42.827492,41.58499 41.531559,41.523876 41.776093,41.84193 41.547623,42.405777</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Turkmenistan</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>53.069719,38.899721 53.078608,39.093882 53.1,38.751108 53.069719,38.899721</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>58.78055,42.658045 60.014444,42.217493 60.140276,41.381105 61.874163,41.125551 62.551104,39.93416 64.383028,38.953127 66.643877,38.003054 66.537737,37.366381 65.708879,37.538607 64.798037,37.124994 64.503603,36.28055 63.11944,35.86194 63.105272,35.45083 62.722216,35.254717 62.30916,35.141665 61.27656,35.607248 61.157213,36.649996 60.333055,36.656099 59.338884,37.539164 57.450274,37.939157 57.212214,38.281939 55.442766,38.086107 54.681108,37.443605 53.905642,37.350855 53.983881,38.915827 53.541384,39.335825 53.162493,39.175554 53.264162,39.655268 53.734438,39.523882 53.408327,39.665827 53.57583,39.966105 52.934717,39.990549 53.004717,39.762217 52.721933,40.4461 52.918604,41.081667 53.746386,40.615274 54.417772,40.703608 54.244715,40.880274 54.733881,41.102221 54.072771,41.47555 53.803881,42.12388 52.946657,41.973047 52.815828,41.695826 52.881937,41.04722 52.440073,41.740938 53.015001,42.138887 54.173052,42.337214 55.456942,41.286661 56.000963,41.328455 57.044718,41.260279 56.98694,41.893053 58.026606,42.504641 58.515551,42.304438 58.164438,42.651934 58.78055,42.658045</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Ukraine</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>33.040276,46.011375 32.759438,46.03611 32.965271,46.049431 33.040276,46.011375</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>34.227486,46.061928 34.158043,46.100548 34.22915,46.187759 34.227486,46.061928</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>32.167763,46.145821 31.58416,46.25332 31.501106,46.366653 32.167763,46.145821</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>33.417702,52.3554 33.838882,52.36055 34.419716,51.808884 34.098045,51.653877 34.38221,51.263611 35.371887,51.041435 35.606651,50.369438 37.458603,50.439713 38.024223,49.903084 38.30777,50.073883 40.139763,49.601051 40.166939,49.248604 39.696655,49.010826 40.07666,48.874992 39.656937,48.616661 39.998878,48.297218 39.796387,47.857216 38.8536,47.860825 38.303322,47.55859 38.235825,47.109428 35.907204,46.651093 34.985268,46.075829 35.198044,46.443314 35.05304,46.258041 34.70249,46.175819 34.561661,45.984993 34.401649,46.013878 34.542496,46.187485 33.67193,46.220818 34.633324,45.94165 34.460541,45.767212 35.126656,45.326096 35.34304,45.332497 35.05026,45.613884 34.76305,46.015549 34.666939,46.093597 34.827209,46.06944 35.053879,45.65387 35.311661,45.383041 35.475266,45.2911 36.637215,45.376099 36.43971,45.065536 35.515266,45.116096 33.955544,44.381104 33.366936,44.579163 33.541939,45.111931 32.480537,45.395821 33.77193,45.92054 33.611382,46.147217 31.791943,46.283051 32.059151,46.395821 31.507771,46.57972 32.647217,46.641106 32.019707,46.629433 31.74943,47.253319 31.907494,46.648872 30.83277,46.54832 30.251659,45.876656 29.746941,45.619431 29.633606,45.821106 29.664331,45.211803 28.21484,45.448647 28.971935,46.006653 28.994434,46.478325 30.11694,46.3861 29.949997,46.814156 29.184441,47.443047 29.141937,47.986092 27.755554,48.451385 26.634995,48.257164 24.919441,47.711662 22.894804,47.95454 22.151442,48.41192 22.558052,49.079437 22.886074,49.002914 22.680828,49.572495 24.111385,50.56694 23.604633,51.527695 24.396664,51.886658 25.775829,51.939156 30.551414,51.251846 30.943096,52.073792 31.783886,52.108047 33.417702,52.3554</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+	</Document>
+</kml>
