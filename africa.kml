@@ -1,0 +1,809 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>World Country Borders KML</name>
+		<Style id='Style0-point-1'>
+			<IconStyle>
+				<color>64FFFFFF</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-point-1-hover'>
+			<IconStyle>
+				<color>64FFFFFF</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style0-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style0-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style0-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style0-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style0-multi_geometry-4'>
+			<IconStyle>
+				<color>64828282</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+
+			<Style id='my_style5'>
+				<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>6414F0FF</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>6414F0FF</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+
+<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>South Africa</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>37.85083,-46.95695 37.576385,-46.90945 37.781944,-46.83223 37.85083,-46.95695</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>37.959442,-46.658615 37.85694,-46.62694 37.94277,-46.60334 37.959442,-46.658615</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>29.893887,-22.194447 31.297504,-22.41476 32.01611,-24.45945 31.96851,-25.95784 31.33083,-25.75139 30.902048,-26.305254 30.818886,-26.810558 31.161663,-27.20306 31.987499,-27.31611 32.1334,-26.839626 32.890427,-26.84714 32.390274,-28.53778 31.325832,-29.39083 30.023888,-31.28111 27.899998,-33.04056 26.530552,-33.753334 25.724998,-33.76723 25.70194,-34.03195 22.545,-34.005 20.0,-34.822002 18.817776,-34.377785 18.793331,-34.08667 18.40472,-34.30278 18.441109,-33.70667 17.8475,-32.83083 18.292221,-32.624451 18.27861,-31.89278 16.48959,-28.57818 17.06361,-28.028614 17.40472,-28.713612 18.175831,-28.908611 19.123055,-28.96222 19.99612,-28.42145 20.000942,-24.765408 20.811386,-25.88333 20.642498,-26.82806 21.667221,-26.86444 22.624809,-26.11156 23.014832,-25.29972 24.6772,-25.82782 25.50972,-25.67778 25.871387,-24.744446 26.845276,-24.264446 26.95919,-23.75207 28.298332,-22.60945 29.373623,-22.19241 29.893887,-22.194447</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>28.565552,-28.610001 27.011108,-29.62528 27.564617,-30.40491 28.079937,-30.65053 28.377777,-30.16028 29.168888,-29.91389 29.43083,-29.27861 28.565552,-28.610001</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Benin</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>2.484418,6.340486 1.635404,6.218721 1.398542,9.429901 1.355,9.995277 0.776667,10.376665 0.91797,10.996399 1.435278,11.45889 2.014722,11.422499 2.39792,11.896152 2.378054,12.240274 2.83862,12.396658 3.604459,11.693274 3.855,10.584999 3.095,9.09055 2.789444,9.043888 2.719606,6.365505 2.484418,6.340486</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+			<Placemark>
+            			<snippet></snippet>
+            			<description></description>
+            			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+            			<ExtendedData>
+            				<Data name='Name'>
+            					<value>Angola</value>
+            				</Data>
+            			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>11.750834,-16.75528 11.693609,-16.535557 11.775,-16.804726 11.750834,-16.75528</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>13.997499,-5.848612 16.579721,-5.900833 16.941668,-7.19861 17.624166,-8.098057 19.373056,-7.996111 19.53895,-6.996614 20.629747,-6.913881 20.548716,-7.283615 21.782961,-7.280842 21.790556,-9.405556 22.312223,-10.364445 22.253889,-11.209723 23.986208,-10.870461 24.020555,-13.00639 21.998335,-13.004168 22.000151,-16.171661 23.47611,-17.625835 23.284723,-17.662502 20.854166,-18.016392 18.915834,-17.815556 18.45154,-17.389835 13.993219,-17.423946 13.160555,-16.952778 11.752783,-17.254833 11.820833,-16.503056 11.810835,-15.993057 11.73139,-15.846668 12.509722,-13.42528 13.792501,-11.791668 13.773611,-10.684723 12.984446,-9.087502 13.39139,-8.387222 12.245001,-6.098055 13.178881,-5.856329 13.997499,-5.848612</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>13.088888,-4.6625 12.565554,-5.025555 12.526667,-5.724167 12.214552,-5.768555 12.026133,-5.014996 12.779047,-4.38899 13.091391,-4.633055 13.088888,-4.6625</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+            			<Placemark>
+                        			<snippet></snippet>
+                        			<description></description>
+                        			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                        			<ExtendedData>
+                        				<Data name='Name'>
+                        					<value>Algeria</value>
+                        				</Data>
+                        			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>2.96361,36.802216 4.785832,36.894722 5.328055,36.640274 6.398333,37.086388 8.62203,36.941368 8.183611,36.524162 8.251665,34.64444 7.492499,33.887497 8.34861,32.533333 9.055277,32.099998 9.537113,30.23439 9.30389,30.122498 9.766388,29.427776 9.948332,27.824444 9.871666,26.514164 9.398333,26.153332 10.25222,24.60583 11.558887,24.3025 11.986475,23.522305 7.450807,20.852863 5.812499,19.44611 4.245277,19.146664 3.331944,18.976387 3.233055,19.820274 1.79583,20.308331 1.1675,20.741108 1.169662,21.102543 -4.80611,25.000275 -6.662778,26.129166 -8.66679,27.29046 -8.66667,27.666664 -8.66722,28.709442 -7.12389,29.636944 -5.53833,29.902496 -4.920556,30.508053 -3.626667,30.97055 -3.818334,31.69555 -2.853889,32.088333 -1.180556,32.11055 -1.01028,32.508331 -1.668056,33.26111 -1.74722,34.747215 -2.209445,35.085831 0.95,36.450272 2.96361,36.802216</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+                        			<Placemark>
+                                    			<snippet></snippet>
+                                    			<description></description>
+                                    			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                    			<ExtendedData>
+                                    				<Data name='Name'>
+                                    					<value>Botswana</value>
+                                    				</Data>
+                                    			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>26.95919,-23.75207 26.845276,-24.264446 25.871387,-24.744446 25.50972,-25.67778 24.6772,-25.82782 23.014832,-25.29972 22.624809,-26.11156 21.667221,-26.86444 20.642498,-26.82806 20.811386,-25.88333 20.000942,-24.765408 19.996666,-22.005001 20.991943,-21.996948 20.993286,-18.318417 23.297108,-17.99595 23.615578,-18.485069 24.3625,-17.94861 25.264431,-17.80225 26.166111,-19.527779 27.22,-20.09167 27.287453,-20.494965 27.713165,-20.50643 28.015831,-21.56611 29.060555,-21.79806 29.373623,-22.19241 28.298332,-22.60945 26.95919,-23.75207</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+                                    					<Placemark>
+                                                			<snippet></snippet>
+                                                			<description></description>
+                                                			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                                			<ExtendedData>
+                                                				<Data name='Name'>
+                                                					<value>Burkina Faso</value>
+                                                				</Data>
+                                                			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-2.834048,11.002007 -2.685561,9.481817 -3.63361,9.954443 -4.70444,9.698055 -5.51985,10.436272 -5.27306,11.84389 -4.4175,12.30083 -4.33722,13.121666 -3.964253,13.50383 -3.43767,13.166498 -3.2575,13.696665 -2.87917,13.655554 -2.474722,14.287498 -2.00694,14.187777 -1.980834,14.474722 -0.725278,15.082777 0.235048,14.915068 0.602222,13.70389 1.285306,13.34996 0.99167,13.371666 0.98917,13.047222 1.578333,12.629999 2.1425,12.694443 2.39792,11.896152 2.014722,11.422499 1.435278,11.45889 0.91797,10.996399 -0.14976,11.13854 -0.61833,10.911665 -2.834048,11.002007</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+                                                					<Placemark>
+                                                            			<snippet></snippet>
+                                                            			<description></description>
+                                                            			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                                            			<ExtendedData>
+                                                            				<Data name='Name'>
+                                                            					<value>Burundi</value>
+                                                            				</Data>
+                                                            			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>29.229897,-3.75096 29.024441,-2.74472 29.85083,-2.759722 29.952221,-2.309445 30.57333,-2.39917 30.4175,-2.86194 30.843662,-2.978794 30.834999,-3.25694 30.026108,-4.26944 29.423885,-4.448056 29.229897,-3.75096</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+                                                            			<Placemark>
+                                                                        			<snippet></snippet>
+                                                                        			<description></description>
+                                                                        			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                                                        			<ExtendedData>
+                                                                        				<Data name='Name'>
+                                                                        					<value>Cameroon</value>
+                                                                        				</Data>
+                                                                        			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>9.687222,3.574722 9.62611,3.551111 9.6425,3.578611 9.687222,3.574722</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>14.577221,12.738609 15.042597,12.078888 15.061666,10.789999 15.68185,9.989649 14.194769,9.98175 13.957499,9.638611 15.201944,8.485832 15.499008,7.52661 14.419167,6.035277 14.732777,4.623055 16.103054,2.898333 16.207222,2.220833 16.07222,1.654166 14.565,2.169444 13.293888,2.163611 12.523611,2.283333 11.339764,2.168611 10.02611,2.168056 9.811764,2.343698 9.7225,3.865278 8.975832,4.096666 8.845833,4.638055 8.504166,4.527778 8.591738,4.810932 8.865276,5.841944 9.795555,6.801666 10.615,7.06861 11.34028,6.440833 11.864166,7.084722 12.253887,8.40805 12.796944,8.769722 13.80722,11.055832 14.646387,11.575832 14.645277,12.188332 14.174444,12.396666 14.07472,13.081665 14.500875,13.001314 14.577221,12.738609</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Chad</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>14.500875,13.001314 14.07472,13.081665 13.62512,13.718338 13.468887,14.46111 15.489166,16.914165 15.996666,20.353054 15.202499,21.495831 14.997889,23.000591 16.000832,23.450554 24.002747,19.499065 23.999603,15.698709 22.937222,15.561943 22.935833,15.11611 22.38416,14.554165 22.554996,14.125555 22.084442,13.779165 22.294167,13.35861 21.827774,12.797499 22.466942,12.621666 22.866505,10.922447 21.719444,10.639444 21.715553,10.290554 20.371666,9.108332 18.988888,8.964167 19.058792,8.578382 18.588886,8.040277 15.499008,7.52661 15.201944,8.485832 13.957499,9.638611 14.194769,9.98175 15.68185,9.989649 15.061666,10.789999 15.042597,12.078888 14.577221,12.738609 14.500875,13.001314</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Comoros</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>43.86055,-12.35611 43.66861,-12.3575 43.622772,-12.25833 43.86055,-12.35611</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>44.487495,-12.09306 44.513611,-12.38028 44.206665,-12.161945 44.487495,-12.09306</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>43.459717,-11.93556 43.219162,-11.761112 43.281387,-11.379723 43.459717,-11.93556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+					<Placemark>
+            			<snippet></snippet>
+            			<description></description>
+            			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+            			<ExtendedData>
+            				<Data name='Name'>
+            					<value>Democratic Republic of Congo</value>
+            				</Data>
+            			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>25.891668,5.192499 27.455278,5.01639 28.363054,4.290003 29.643332,4.643614 30.85882,3.493395 30.729723,2.448057 31.302778,2.121389 29.960554,0.825556 29.596945,-1.385834 28.868334,-2.394444 29.024443,-2.744722 29.229898,-3.750963 29.423887,-4.448055 29.55028,-6.295279 30.771242,-8.192247 28.901667,-8.478613 28.372221,-9.260834 28.69972,-10.653334 28.363333,-11.550835 29.031389,-12.383057 29.493612,-12.458057 29.805052,-12.155247 29.80139,-13.454168 29.589445,-13.221945 29.015833,-13.397779 28.441946,-12.519724 27.660002,-12.296667 27.199251,-11.567905 26.868612,-11.973612 26.004721,-11.9025 25.359724,-11.641668 25.332224,-11.193335 24.448332,-11.463612 23.986208,-10.870461 22.253889,-11.209723 22.312223,-10.364445 21.790556,-9.405556 21.782961,-7.280842 20.548716,-7.283615 20.629747,-6.913881 19.53895,-6.996614 19.373056,-7.996111 17.624166,-8.098057 16.941668,-7.19861 16.579721,-5.900833 13.997499,-5.848612 13.178881,-5.856329 12.435835,-6.016666 12.214552,-5.768555 12.526667,-5.724167 12.565554,-5.025555 13.088888,-4.6625 13.091391,-4.633055 13.413889,-4.8825 13.729445,-4.445833 14.400835,-4.2775 14.41889,-4.887222 14.66139,-4.909445 15.890505,-3.943008 16.226946,-3.328333 16.195833,-2.175833 17.714998,-0.537222 18.091944,2.224169 18.62496,3.479445 18.541945,4.335554 19.421389,5.134169 20.585554,4.410002 22.379168,4.127501 22.895834,4.821112 23.420279,4.591112 24.394167,5.115557 24.734446,4.910833 25.542223,5.381392 25.891668,5.192499</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>12.953054,-5.876112 12.844168,-5.850555 12.737223,-5.943611 12.953054,-5.876112</coordinates></LinearRing></innerBoundaryIs></Polygon></Placemark>
+
+
+
+            					<Placemark>
+                        			<snippet></snippet>
+                        			<description></description>
+                        			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                        			<ExtendedData>
+                        				<Data name='Name'>
+                        					<value>Republic of the Congo</value>
+                        				</Data>
+                        			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>12.779047,-4.38899 12.026131,-5.015 11.140661,-3.925277 11.496944,-3.50694 11.925833,-3.636945 11.574165,-2.33333 12.478054,-2.32722 12.65,-1.8225 13.001507,-2.36767 13.482777,-2.4375 13.76222,-2.088889 14.110832,-2.493056 14.429722,-1.89167 14.51861,-0.60917 13.848331,-0.19861 14.487221,0.913611 14.188889,1.391389 13.186785,1.22248 13.293888,2.163611 14.565,2.169444 16.07222,1.654166 16.207222,2.220833 16.659721,3.533333 17.475277,3.713055 18.624958,3.479444 18.091942,2.224166 17.714996,-0.53722 16.195831,-2.17583 16.226944,-3.32833 15.890505,-3.94301 14.661388,-4.909445 14.418888,-4.88722 14.400833,-4.2775 13.729443,-4.445834 13.413887,-4.8825 13.091389,-4.633056 12.779047,-4.38899</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Cote d'Ivoire</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-3.10227,5.109545 -3.10304,5.085022 -3.16833,5.117222 -3.10227,5.109545</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-4.78728,5.168312 -4.14639,5.277222 -4.00444,5.231667 -4.78728,5.168312</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-4.78728,5.168312 -5.31972,5.230833 -5.00293,5.12924 -7.5254,4.352806 -7.423334,5.839444 -8.606384,6.507815 -8.308334,6.860833 -8.469749,7.561325 -7.946838,8.018505 -8.198057,8.496666 -7.64654,8.37842 -7.95778,8.813332 -7.732779,9.088055 -8.14361,9.533888 -7.97398,10.16561 -7.635556,10.448332 -6.98806,10.147499 -6.2434,10.735256 -6.11139,10.197777 -5.51985,10.436272 -4.70444,9.698055 -3.63361,9.954443 -2.685561,9.481817 -2.48778,8.197777 -3.249167,6.611388 -2.76444,5.579166 -2.928128,5.100222 -3.1425,5.36778 -3.297223,5.118055 -4.004168,5.253611 -3.80778,5.375555 -4.78728,5.168312</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+				<Placemark>
+            			<snippet></snippet>
+            			<description></description>
+            			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+            			<ExtendedData>
+            				<Data name='Name'>
+            					<value>Djibouti</value>
+            				</Data>
+            			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>42.86681,11.585428 43.249222,11.469534 42.944092,11.00244 41.789719,11.008055 41.828606,11.74 42.399719,12.469721 43.121384,12.708332 43.413887,12.056944 42.508606,11.56722 42.86681,11.585428</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+            			<Placemark>
+                        			<snippet></snippet>
+                        			<description></description>
+                        			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                        			<ExtendedData>
+                        				<Data name='Name'>
+                        					<value>Egypt</value>
+                        				</Data>
+                        			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>34.026384,27.498335 34.041941,27.442221 33.917498,27.526388 34.026384,27.498335</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>32.04722,31.143332 32.042772,31.158056 32.049997,31.153334 32.04722,31.143332</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>33.476664,31.137499 33.266665,31.215277 33.400553,31.181665 33.476664,31.137499</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>33.195276,31.232779 33.261385,31.214998 33.101664,31.227221 32.976664,31.168333 33.096109,31.2325 33.195276,31.232779</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>25.316668,31.501112 27.33111,31.374998 29.069445,30.821665 31.027777,31.600557 31.92148,31.529886 32.204996,31.289999 31.9,31.531111 31.77389,31.271666 32.143068,31.074167 32.21055,31.288057 32.717218,31.032499 33.111666,31.193056 33.149721,31.101667 33.14361,31.058332 33.410555,31.154722 33.532778,31.116945 33.743891,31.133333 34.216661,31.323332 34.26758,31.216543 34.903803,29.486708 34.254442,27.728613 33.242777,28.554445 32.574999,30.005278 32.34083,29.596945 33.558886,27.883055 35.138613,24.5175 35.813051,23.916113 35.483057,23.938334 35.670557,22.965834 36.888468,22.000113 31.45389,21.998335 31.455557,22.232222 31.271112,21.998335 25.001425,21.999697 24.997778,29.248888 24.706667,30.168612 25.151667,31.646944 25.316668,31.501112</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>34.00139,26.707224 33.994722,26.749723 33.960001,26.788332 34.00139,26.707224</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+                        				<Placemark>
+                                    			<snippet></snippet>
+                                    			<description></description>
+                                    			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                    			<ExtendedData>
+                                    				<Data name='Name'>
+                                    					<value>Equatorial Guinea</value>
+                                    				</Data>
+                                    			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.641388,-1.47472 5.615277,-1.469167 5.633888,-1.42056 5.641388,-1.47472</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>10.02611,2.168056 11.339764,2.168611 11.35389,1.001944 9.80398,1.002608 9.356943,1.167222 9.811764,2.343698 10.02611,2.168056</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>8.85667,3.49944 8.44611,3.274444 8.68611,3.741666 8.958887,3.703888 8.85667,3.49944</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+                                    				<Placemark>
+                                                			<snippet></snippet>
+                                                			<description></description>
+                                                			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                                			<ExtendedData>
+                                                				<Data name='Name'>
+                                                					<value>Eritrea</value>
+                                                				</Data>
+                                                			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>40.087219,15.851665 40.41944,15.573889 39.977776,15.605 40.087219,15.851665</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>40.113327,16.055832 39.979721,16.012218 40.030273,16.095276 40.113327,16.055832</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>38.797775,17.653332 39.721107,15.084166 39.881386,15.489443 40.17083,14.97361 41.170555,14.6325 43.121384,12.708332 42.399719,12.469721 40.228058,14.443506 39.024021,14.655162 38.44944,14.4175 37.911385,14.88361 37.572212,14.102253 37.291664,14.451944 36.542816,14.26205 36.443283,15.149952 36.973053,16.269444 36.995827,17.073887 37.423286,17.034214 38.600693,17.994881 38.797775,17.653332</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+                                                			<Placemark>
+                                                            			<snippet></snippet>
+                                                            			<description></description>
+                                                            			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+                                                            			<ExtendedData>
+                                                            				<Data name='Name'>
+                                                            					<value>Ethiopia</value>
+                                                            				</Data>
+                                                            			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>36.542816,14.26205 37.291664,14.451944 37.572212,14.102253 37.911385,14.88361 38.44944,14.4175 39.024021,14.655162 40.228058,14.443506 42.399719,12.469721 41.828606,11.74 41.789719,11.008055 42.944092,11.00244 42.663055,10.6325 42.848053,10.22361 44.010551,9.007221 47.01194,8.00111 47.98824,8.004107 44.950829,4.9025 43.686386,4.891944 41.90517,3.98032 41.171387,3.9425 40.783768,4.287975 39.524437,3.406389 38.121109,3.611666 37.039719,4.375555 35.940552,4.622499 35.821663,5.32861 35.301941,5.378055 34.70472,6.677777 33.711388,7.660277 32.991104,7.924999 33.252777,8.458611 34.120552,8.577221 34.28611,10.554165 34.594444,10.887777 34.864441,10.734999 35.096939,11.826944 35.70108,12.666115 36.142693,12.706923 36.542816,14.26205</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Gabon</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>9.007776,-0.767778 8.946665,-0.658333 9.006666,-0.598888 9.007776,-0.767778</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>12.523611,2.283335 13.29389,2.16361 13.186785,1.222475 14.18889,1.39139 14.487223,0.91361 13.848333,-0.19861 14.51861,-0.609167 14.429724,-1.891666 14.110834,-2.493055 13.76222,-2.088888 13.482779,-2.4375 13.001509,-2.367672 12.65,-1.8225 12.478056,-2.327221 11.574167,-2.333332 11.925833,-3.636944 11.496946,-3.506945 11.140661,-3.925276 9.700834,-2.445555 10.130556,-2.52 9.615278,-2.376667 8.983057,-1.234167 9.513887,-1.596666 8.710001,-0.641111 9.013887,-0.819166 9.298334,-0.371666 9.347502,0.363058 9.92111,0.185278 9.30361,0.528334 9.6,0.481112 9.564722,0.983057 9.803976,1.002607 11.353888,1.001944 11.339766,2.168612 12.523611,2.283335</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>9.554445,0.274446 9.544443,0.285002 9.538057,0.270834 9.554445,0.274446</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Gambia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.73167,13.44972 -16.20084,13.25166 -16.16222,13.425278 -15.29583,13.491665 -16.14389,13.454166 -16.39473,13.330555 -16.56567,13.589998 -15.07028,13.82639 -13.79861,13.40639 -14.35111,13.237778 -15.11167,13.595833 -15.285002,13.374443 -15.803612,13.347776 -15.80972,13.159721 -16.75087,13.059977 -16.73167,13.44972</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Ghana</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>0.63953,5.84549 0.662222,5.754167 0.255833,5.757777 -0.795556,5.20805 -1.61333,5.020833 -2.058889,4.730833 -3.10304,5.085022 -3.10227,5.109545 -2.928128,5.100222 -2.76444,5.579166 -3.249167,6.611388 -2.48778,8.197777 -2.685561,9.481817 -2.834048,11.002007 -0.61833,10.911665 -0.14976,11.13854 0.368333,10.259443 0.2175,9.457222 0.550833,9.411388 0.38273,8.76076 0.727222,8.321388 0.525,6.947778 1.198891,6.100546 0.69222,5.748055 0.634444,5.948055 0.51209,6.05524 0.208197,6.089699 0.488889,6.043611 0.63953,5.84549</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Guinea</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-13.60278,9.734441 -14.664446,10.476665 -14.69306,11.03528 -15.016848,10.956451 -14.686945,11.509722 -13.70917,11.715277 -13.97103,12.154758 -13.71314,12.67722 -12.3454,12.30175 -11.37306,12.407774 -11.315556,12.022774 -10.92889,12.22444 -10.65275,11.89261 -10.323893,12.225 -9.70195,12.029163 -9.155556,12.48611 -8.53388,11.49391 -8.35778,11.305555 -8.68056,10.966389 -8.28972,11.00778 -7.97398,10.16561 -8.14361,9.533888 -7.732779,9.088055 -7.95778,8.813332 -7.64654,8.37842 -8.198057,8.496666 -7.946838,8.018505 -8.469749,7.561325 -8.66056,7.695 -9.106945,7.198889 -9.485161,7.361989 -9.48365,8.346931 -10.26665,8.488377 -10.69583,8.298611 -10.57153,9.059532 -11.214445,9.997499 -12.45611,9.888332 -13.29561,9.032143 -13.60278,9.734441</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Kenya</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>41.138054,-2.12444 40.950272,-2.17361 41.063889,-2.044167 41.138054,-2.12444</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>35.940552,4.622499 37.039719,4.375555 38.121109,3.611666 39.524437,3.406389 40.783768,4.287975 41.171387,3.9425 41.90517,3.98032 40.986595,2.829956 40.998329,-0.866111 41.558159,-1.67487 41.315277,-1.95806 40.891663,-2.01917 40.963608,-2.29889 40.854996,-2.236111 40.63805,-2.55 40.236664,-2.663333 39.203026,-4.66962 37.613609,-3.50417 37.602776,-2.995833 33.920273,-1.00111 33.907219,0.103056 35.00972,1.895278 34.463333,3.671389 33.996666,4.222777 34.388191,4.609682 35.940552,4.622499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Lesotho</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>27.564617,-30.40491 27.011108,-29.62528 28.565552,-28.610001 29.43083,-29.27861 29.168888,-29.91389 28.377777,-30.16028 28.079937,-30.65053 27.564617,-30.40491</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Liberia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-10.806074,6.403 -11.49233,6.927091 -10.26665,8.488377 -9.48365,8.346931 -9.485161,7.361989 -9.106945,7.198889 -8.66056,7.695 -8.469749,7.561325 -8.308334,6.860833 -8.606384,6.507815 -7.423334,5.839444 -7.5254,4.352806 -9.14278,5.055555 -10.806074,6.403</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Libya</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>9.948332,27.824444 9.766388,29.427776 9.30389,30.122498 9.537113,30.23439 10.21361,30.730831 10.287222,31.694164 11.567499,32.442215 11.526081,33.171135 15.165833,32.398605 15.761665,31.38555 17.370831,31.08166 19.001389,30.266941 20.060555,30.855274 20.084442,32.184715 21.621387,32.933609 23.112499,32.6325 23.247196,32.216225 24.973888,31.97 25.151665,31.646942 24.706665,30.16861 24.997776,29.248886 25.001423,21.99969 25.000832,19.999119 24.000832,20.001942 24.002747,19.499065 16.000832,23.450554 14.997889,23.000591 14.234999,22.614166 13.543888,23.16861 11.986475,23.522305 11.558887,24.3025 10.25222,24.60583 9.398333,26.153332 9.871666,26.514164 9.948332,27.824444</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Madagascar</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>49.833612,-17.089724 49.860552,-16.913891 50.010553,-16.725559 49.833612,-17.089724</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>47.219721,-15.436668 47.207773,-15.434446 47.200556,-15.427502 47.206667,-15.420557 47.219446,-15.420834 47.219721,-15.436668</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>48.342501,-13.418055 48.205553,-13.39139 48.281389,-13.196667 48.342501,-13.418055</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>49.356943,-12.090834 49.943331,-13.039446 50.433611,-15.580002 50.172777,-15.979723 49.866106,-15.432501 49.633608,-15.557501 49.788607,-16.83028 47.133051,-24.928059 45.214724,-25.588337 44.017221,-24.985279 43.238886,-22.282501 43.500551,-21.333889 44.482218,-19.97028 43.93722,-17.479446 44.459162,-16.184448 46.151384,-15.703611 46.477221,-15.966112 46.338335,-15.624723 46.947222,-15.198891 46.959444,-15.558056 47.223619,-15.448465 47.235647,-15.41292 47.11194,-15.305557 47.058329,-15.185001 47.454996,-14.665279 47.427217,-15.110556 47.811277,-14.603889 48.001665,-14.765556 47.699442,-14.420557 48.048334,-14.155556 47.905275,-13.59639 48.287218,-13.808056 48.739717,-13.427223 48.959444,-12.822224 48.730829,-12.434168 49.356943,-12.090834</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>49.604441,-12.62639 49.595835,-12.610001 49.594446,-12.623611 49.604441,-12.62639</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Malawi</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>34.732216,-12.09556 34.723885,-12.032778 34.754715,-12.04417 34.732216,-12.09556</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>34.623886,-12.036667 34.602776,-12.01195 34.629997,-12.0125 34.623886,-12.036667</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>33.13472,-9.49417 34.325272,-9.73278 34.966728,-11.57211 34.626106,-11.57583 34.375275,-12.155834 34.566383,-13.34222 35.924164,-14.885557 35.81444,-16.019447 35.1353,-16.553375 35.290054,-17.134266 34.255554,-15.89917 34.589722,-15.28278 34.522217,-14.57167 33.633331,-14.53972 33.222229,-14.012566 32.678886,-13.60639 33.046387,-12.603889 33.54583,-12.35945 33.273331,-12.144445 33.250549,-10.88667 33.702278,-10.56186 32.940399,-9.40508 33.13472,-9.49417</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mali</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-8.53388,11.49391 -9.155556,12.48611 -9.70195,12.029163 -10.323893,12.225 -10.65275,11.89261 -10.92889,12.22444 -11.315556,12.022774 -11.37306,12.407774 -11.37806,12.988054 -12.05722,13.66472 -12.244833,14.764385 -11.84139,14.863054 -11.49417,15.646387 -10.89964,15.106874 -10.716387,15.438902 -9.411112,15.443888 -9.338057,15.704721 -9.33361,15.499722 -5.49505,15.498371 -5.335,16.328053 -5.60139,16.507774 -6.57722,24.999165 -4.80611,25.000275 1.169662,21.102543 1.1675,20.741108 1.79583,20.308331 3.233055,19.820274 3.331944,18.976387 4.245277,19.146664 4.245,18.645275 4.200833,16.393887 3.523981,15.35815 1.3125,15.286665 0.235048,14.915068 -0.725278,15.082777 -1.980834,14.474722 -2.00694,14.187777 -2.474722,14.287498 -2.87917,13.655554 -3.2575,13.696665 -3.43767,13.166498 -3.964253,13.50383 -4.33722,13.121666 -4.4175,12.30083 -5.27306,11.84389 -5.51985,10.436272 -6.11139,10.197777 -6.2434,10.735256 -6.98806,10.147499 -7.635556,10.448332 -7.97398,10.16561 -8.28972,11.00778 -8.68056,10.966389 -8.35778,11.305555 -8.53388,11.49391</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mauritania</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.427502,19.603611 -16.46,19.699718 -16.344448,19.866386 -16.427502,19.603611</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-6.662778,26.129166 -4.80611,25.000275 -6.57722,24.999165 -5.60139,16.507774 -5.335,16.328053 -5.49505,15.498371 -9.33361,15.499722 -9.338057,15.704721 -9.411112,15.443888 -10.716387,15.438902 -10.89964,15.106874 -11.49417,15.646387 -11.84139,14.863054 -12.244833,14.764385 -14.34528,16.638611 -16.280834,16.519722 -16.52768,16.06025 -16.039448,17.728054 -16.511669,19.352219 -16.196392,20.223053 -16.91972,21.161663 -17.05233,20.764095 -16.953056,21.338333 -15.742,21.338284 -12.99972,21.338055 -13.105278,22.893055 -12.00028,23.454441 -12.000557,26.0 -8.666945,26.000275 -8.66679,27.29046 -6.662778,26.129166</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Morocco</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-9.05317,32.7348 -6.84306,34.01861 -5.91874,35.790649 -5.395557,35.916336 -5.34583,35.84166 -4.695834,35.20888 -2.94694,35.329163 -2.92528,35.266663 -2.914722,35.273605 -2.209445,35.085831 -1.74722,34.747215 -1.668056,33.26111 -1.01028,32.508331 -1.180556,32.11055 -2.853889,32.088333 -3.818334,31.69555 -3.626667,30.97055 -4.920556,30.508053 -5.53833,29.902496 -7.12389,29.636944 -8.66722,28.709442 -8.66667,27.666664 -13.174961,27.666958 -11.458057,28.334442 -10.138056,29.428055 -9.640278,30.168053 -9.80917,31.446663 -9.05317,32.7348</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mauritius</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>57.572495,-20.51417 57.304718,-20.449169 57.624443,-19.98639 57.572495,-20.51417</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>63.466385,-19.73584 63.328606,-19.73806 63.461105,-19.673058 63.466385,-19.73584</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>56.564438,-10.39722 56.511665,-10.346668 56.513611,-10.316668 56.564438,-10.39722</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Mozambique</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>32.95444,-26.058613 32.895271,-26.040836 32.980553,-25.972778 32.95444,-26.058613</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>35.488327,-21.685 35.435555,-21.78334 35.479439,-21.52389 35.488327,-21.685</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>39.901382,-16.413334 39.810829,-16.363056 39.861382,-16.27806 39.901382,-16.413334</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>40.500832,-11.031946 40.646942,-12.76083 40.409996,-12.96194 40.846107,-14.697779 40.587776,-15.479723 39.094444,-16.98639 36.841385,-17.87722 36.943886,-18.10861 36.252777,-18.89139 34.899162,-19.857224 34.619164,-19.61778 35.312492,-22.418056 35.545273,-22.232502 35.497215,-24.10528 35.012215,-24.65417 32.813889,-25.60778 32.57611,-25.975559 32.837494,-26.29306 32.952499,-26.08389 32.890427,-26.84714 32.1334,-26.839626 31.96851,-25.95784 32.01611,-24.45945 31.297504,-22.41476 32.488876,-21.34445 32.50222,-20.598614 33.018883,-19.94334 32.699165,-18.94445 33.073051,-18.34889 32.987808,-17.265003 32.98114,-16.70905 31.276665,-16.018612 30.42277,-16.00917 30.415756,-15.63187 30.213017,-14.98172 33.222229,-14.012566 33.633331,-14.53972 34.522217,-14.57167 34.589722,-15.28278 34.255554,-15.89917 35.290054,-17.134266 35.1353,-16.553375 35.81444,-16.019447 35.924164,-14.885557 34.566383,-13.34222 34.375275,-12.155834 34.626106,-11.57583 34.966728,-11.57211 35.838333,-11.41472 36.18972,-11.70667 37.462044,-11.72733 37.941383,-11.285 39.268051,-11.16806 40.436813,-10.47817 40.500832,-11.031946</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>34.602776,-12.01195 34.623886,-12.036667 34.629997,-12.0125 34.602776,-12.01195</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>34.723885,-12.032778 34.732216,-12.09556 34.754715,-12.04417 34.723885,-12.032778</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Namibia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>23.284721,-17.662502 23.476109,-17.625835 24.97,-17.559723 25.264431,-17.80225 24.3625,-17.94861 23.615578,-18.485069 23.297108,-17.99595 20.993286,-18.318417 20.991943,-21.996948 19.996666,-22.005001 20.000942,-24.765408 19.99612,-28.42145 19.123055,-28.96222 18.175831,-28.908611 17.40472,-28.713612 17.06361,-28.028614 16.48959,-28.57818 15.294167,-27.3225 14.463333,-24.109169 14.511389,-22.55278 11.804722,-18.081947 11.752783,-17.254833 13.160555,-16.95278 13.993219,-17.42395 18.451538,-17.38983 18.915833,-17.815556 20.854164,-18.01639 23.284721,-17.662502</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Nigeria</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>7.466389,4.445277 7.335833,4.443055 7.41194,4.488055 7.466389,4.445277</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>7.20361,4.380555 7.22611,4.52 7.316667,4.4725 7.20361,4.380555</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>5.874722,13.749443 6.423055,13.605276 6.933332,12.997221 7.815,13.352777 9.634932,12.80243 10.724165,13.386389 12.459166,13.066111 13.62512,13.718338 14.07472,13.081665 14.174444,12.396666 14.645277,12.188332 14.646387,11.575832 13.80722,11.055832 12.796944,8.769722 12.253887,8.40805 11.864166,7.084722 11.34028,6.440833 10.615,7.06861 9.795555,6.801666 8.865276,5.841944 8.591738,4.810932 7.676944,4.496388 7.071666,4.753888 7.07305,4.434722 6.962222,4.725277 7.005555,4.369444 6.76805,4.774722 6.848611,4.348332 6.727221,4.605 6.694166,4.33 6.104166,4.272778 5.451944,4.923055 5.345277,5.33 5.639722,5.536111 5.257222,5.435555 5.50111,5.620555 5.175278,5.575555 4.525833,6.304999 3.388611,6.443333 3.807222,6.61278 2.719606,6.365505 2.789444,9.043888 3.095,9.09055 3.855,10.584999 3.604459,11.693274 4.1425,13.476944 5.874722,13.749443</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Rwanda</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>29.952221,-2.309445 29.85083,-2.759722 29.024441,-2.74472 28.868332,-2.394444 29.596943,-1.385834 29.974998,-1.464445 30.48222,-1.06333 30.894165,-2.076111 30.57333,-2.39917 29.952221,-2.309445</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Sao Tome and Principe</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>6.523889,0.01833 6.46722,0.259722 6.687778,0.402222 6.523889,0.01833</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>7.423055,1.55611 7.327222,1.607222 7.406666,1.701944 7.423055,1.55611</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Senegal</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-17.14831,14.61392 -17.53722,14.756109 -16.878334,15.224998 -16.52768,16.06025 -16.280834,16.519722 -14.34528,16.638611 -12.244833,14.764385 -12.05722,13.66472 -11.37806,12.988054 -11.37306,12.407774 -12.3454,12.30175 -13.71314,12.67722 -14.51694,12.679722 -16.71777,12.322426 -16.58694,12.632776 -15.626945,12.531111 -15.390001,12.831944 -15.65,12.55555 -16.59806,12.791666 -16.75611,12.565 -16.75087,13.059977 -15.80972,13.159721 -15.803612,13.347776 -15.285002,13.374443 -15.11167,13.595833 -14.35111,13.237778 -13.79861,13.40639 -15.07028,13.82639 -16.56567,13.589998 -16.490837,13.958055 -16.74722,13.951944 -16.36306,14.166111 -16.77584,14.012499 -17.14831,14.61392</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Seychelles</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>46.491386,-9.75445 46.476105,-9.744167 46.508331,-9.71778 46.491386,-9.75445</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>46.510551,-9.396946 46.269165,-9.46306 46.204163,-9.389446 46.510551,-9.396946</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>46.413887,-9.35889 46.27666,-9.34611 46.426941,-9.342779 46.413887,-9.35889</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>56.28222,-7.13417 56.247215,-7.19444 56.27861,-7.110834 56.28222,-7.13417</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>55.535271,-4.76306 55.376106,-4.627223 55.45916,-4.55139 55.535271,-4.76306</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>55.246109,-4.50694 55.231667,-4.448056 55.26722,-4.481668 55.246109,-4.50694</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>55.775833,-4.34833 55.687218,-4.2875 55.77166,-4.31556 55.775833,-4.34833</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Sierra Leone</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-12.52528,7.431389 -12.95278,7.56833 -12.59111,7.634444 -12.52528,7.431389</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-11.214445,9.997499 -10.57153,9.059532 -10.69583,8.298611 -10.26665,8.488377 -11.49233,6.927091 -12.95861,7.9 -13.28806,8.496111 -13.05139,8.36861 -13.120279,8.461666 -12.897501,8.567778 -13.165279,8.51861 -13.2425,8.8025 -13.13222,8.861944 -13.29561,9.032143 -12.45611,9.888332 -11.214445,9.997499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Somalia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>42.944092,11.00244 43.249222,11.469534 44.278328,10.447777 44.898331,10.420555 45.75999,10.875277 46.448051,10.68889 47.398888,11.179998 50.08555,11.511944 50.76944,11.979166 51.277222,11.836666 51.01416,10.442778 51.412636,10.451515 50.896942,10.319721 50.83625,9.432688 47.954437,4.463888 46.014717,2.427778 43.48861,0.649999 41.558159,-1.67487 40.998329,-0.866111 40.986595,2.829956 41.90517,3.98032 43.686386,4.891944 44.950829,4.9025 47.98824,8.004107 47.01194,8.00111 44.010551,9.007221 42.848053,10.22361 42.663055,10.6325 42.944092,11.00244</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Sudan</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>37.268608,20.75111 37.242218,20.785831 37.263855,20.849724 37.268608,20.75111</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>31.45389,21.998333 36.88847,22.000111 37.309441,21.06028 37.10527,21.212219 37.433327,18.858055 38.600693,17.994881 37.423286,17.034214 36.995827,17.073887 36.973053,16.269444 36.443283,15.149952 36.542816,14.26205 36.142693,12.706923 35.70108,12.666115 35.096939,11.826944 34.864441,10.734999 34.594444,10.887777 34.28611,10.554165 34.120552,8.577221 33.252777,8.458611 32.991104,7.924999 33.711388,7.660277 34.70472,6.677777 35.301941,5.378055 35.821663,5.32861 35.940552,4.622499 34.388191,4.609682 33.996666,4.222777 33.516937,3.752222 33.016663,3.888611 32.193329,3.511389 31.176666,3.795278 30.858818,3.493394 29.64333,4.643611 28.363052,4.29 27.45528,5.016388 27.142776,5.771944 26.437496,6.077777 26.404999,6.646388 25.206944,7.497499 25.25333,7.850555 24.192497,8.30361 24.201111,8.686943 23.517776,8.714167 23.669167,9.866943 22.866505,10.922447 22.466942,12.621666 21.827774,12.797499 22.294167,13.35861 22.084442,13.779165 22.554996,14.125555 22.38416,14.554165 22.935833,15.11611 22.937222,15.561943 23.999603,15.698709 24.002747,19.499065 24.000832,20.001942 25.000832,19.999119 25.001423,21.99969 31.271111,21.998333 31.455555,22.23222 31.45389,21.998333</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Swaziland</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>30.902048,-26.305254 31.33083,-25.75139 31.96851,-25.95784 32.1334,-26.839626 31.987499,-27.31611 31.161663,-27.20306 30.818886,-26.810558 30.902048,-26.305254</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+	<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Tanzania</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>39.68249,-7.993334 39.591385,-7.945834 39.901108,-7.63889 39.68249,-7.993334</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>39.446663,-6.21056 39.516106,-6.468612 39.201385,-6.226945 39.304161,-5.72389 39.446663,-6.21056</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>39.736107,-5.46278 39.676941,-4.941389 39.85722,-4.908611 39.736107,-5.46278</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>31.677219,-0.99972 33.920273,-1.00111 37.602776,-2.995833 37.613609,-3.50417 39.203026,-4.66962 38.776382,-6.045556 39.547882,-6.994313 39.274437,-7.57917 39.387772,-8.9025 39.826385,-9.99306 40.436813,-10.47817 39.268051,-11.16806 37.941383,-11.285 37.462044,-11.72733 36.18972,-11.70667 35.838333,-11.41472 34.966728,-11.57211 34.325272,-9.73278 33.13472,-9.49417 32.940399,-9.40508 31.041111,-8.590279 30.77124,-8.192247 29.550278,-6.29528 29.423885,-4.448056 30.026108,-4.26944 30.834999,-3.25694 30.843662,-2.978794 30.4175,-2.86194 30.57333,-2.39917 30.894165,-2.076111 30.48222,-1.06333 31.677219,-0.99972</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Togo</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>1.398542,9.429901 1.635404,6.218721 1.198891,6.100546 0.525,6.947778 0.727222,8.321388 0.38273,8.76076 0.550833,9.411388 0.2175,9.457222 0.368333,10.259443 -0.14976,11.13854 0.91797,10.996399 0.776667,10.376665 1.355,9.995277 1.398542,9.429901</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Tunisia</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>10.99361,33.75 10.865,33.638611 10.72611,33.880829 10.99361,33.75</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>11.06472,34.640549 11.035,34.617493 10.961111,34.655273 11.06472,34.640549</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>11.13722,34.675278 11.230833,34.821106 11.302221,34.803329 11.13722,34.675278</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>10.808611,37.11944 10.79194,37.126389 10.814722,37.125275 10.808611,37.11944</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>9.845247,37.139351 10.252499,37.186386 10.381943,36.723328 11.067778,37.051384 10.45528,36.123329 11.128887,35.235832 10.005833,34.166939 10.331944,33.700272 11.048611,33.616943 11.17111,33.210831 11.526081,33.171135 11.567499,32.442215 10.287222,31.694164 10.21361,30.730831 9.537113,30.23439 9.055277,32.099998 8.34861,32.533333 7.492499,33.887497 8.251665,34.64444 8.183611,36.524162 8.62203,36.941368 9.672499,37.338051 9.845247,37.139351</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>8.917776,37.510826 8.896111,37.525833 8.944721,37.538055 8.917776,37.510826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Uganda</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>33.996666,4.222777 34.463333,3.671389 35.00972,1.895278 33.907219,0.103056 33.920273,-1.00111 31.677219,-0.99972 30.48222,-1.06333 29.974998,-1.464445 29.596943,-1.385834 29.960552,0.825555 31.302776,2.121388 30.729721,2.448055 30.858818,3.493394 31.176666,3.795278 32.193329,3.511389 33.016663,3.888611 33.516937,3.752222 33.996666,4.222777</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Zambia</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>24.97,-17.559723 23.476109,-17.625835 22.000149,-16.17166 21.998333,-13.004168 24.020554,-13.00639 23.98621,-10.87046 24.44833,-11.46361 25.332222,-11.193335 25.359722,-11.64167 26.004719,-11.9025 26.86861,-11.97361 27.199249,-11.5679 27.66,-12.296667 28.441944,-12.519724 29.01583,-13.397779 29.589443,-13.22194 29.801388,-13.45417 29.80505,-12.15525 29.49361,-12.45806 29.031387,-12.38306 28.363331,-11.550835 28.699718,-10.65333 28.372219,-9.26083 28.901665,-8.47861 30.77124,-8.192247 31.041111,-8.590279 32.940399,-9.40508 33.702278,-10.56186 33.250549,-10.88667 33.273331,-12.144445 33.54583,-12.35945 33.046387,-12.603889 32.678886,-13.60639 33.222229,-14.012566 30.213017,-14.98172 30.415756,-15.63187 28.927219,-15.97222 28.759441,-16.552223 27.825275,-16.95917 27.038055,-17.959446 25.264431,-17.80225 24.97,-17.559723</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Western Sahara</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.742,21.338284 -16.953056,21.338333 -17.05233,20.764095 -16.917225,21.943054 -16.719448,22.26083 -16.491112,22.334164 -16.075558,23.324444 -15.766668,23.781666 -15.77722,23.908882 -16.00639,23.6675 -15.83806,23.89694 -14.901112,24.688053 -14.480278,26.171108 -13.57417,26.73167 -13.174961,27.666958 -8.66667,27.666664 -8.66679,27.29046 -8.666945,26.000275 -12.000557,26.0 -12.00028,23.454441 -13.105278,22.893055 -12.99972,21.338055 -15.742,21.338284</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Guinea-Bissau</value>
+				</Data>
+			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.88583,11.052221 -15.981112,11.049444 -15.94639,11.195 -15.88583,11.052221</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.00584,11.068333 -16.06139,11.163055 -15.98056,11.202499 -16.00584,11.068333</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.08806,11.025555 -16.244167,11.100555 -16.0825,11.206944 -16.08806,11.025555</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.86222,11.199999 -15.906389,11.224998 -15.83028,11.300833 -15.86222,11.199999</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.74,11.166943 -15.77639,11.225832 -15.6675,11.306389 -15.74,11.166943</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.17778,11.215277 -16.264446,11.28167 -16.16083,11.290277 -16.17778,11.215277</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.67972,11.439444 -15.74306,11.458332 -15.66583,11.502222 -15.67972,11.439444</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.21278,11.439722 -16.300556,11.449444 -16.164448,11.514999 -16.21278,11.439722</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.25056,11.53666 -16.419445,11.482777 -16.39389,11.545832 -16.25056,11.53666</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.9525,11.423054 -16.065,11.44972 -15.95833,11.594166 -15.9525,11.423054</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-15.553057,11.517221 -15.63361,11.53528 -15.472223,11.631109 -15.553057,11.517221</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.031948,11.755833 -16.16222,11.86861 -15.978334,11.905832 -16.031948,11.755833</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-16.23639,11.836943 -16.30167,11.971666 -16.184723,11.876665 -16.23639,11.836943</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-14.51694,12.679722 -13.71314,12.67722 -13.97103,12.154758 -13.70917,11.715277 -14.686945,11.509722 -15.016848,10.956451 -15.022779,11.195276 -15.40722,11.184999 -15.26528,11.425913 -15.509167,11.33805 -15.027224,11.594166 -15.556667,11.723331 -14.93195,11.750832 -15.003889,11.974165 -15.96333,11.734165 -15.70444,12.004444 -15.852779,12.016666 -16.12806,11.88194 -16.33389,11.996664 -16.334446,12.15111 -16.11056,12.330832 -16.71777,12.322426 -14.51694,12.679722</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+
+
+
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Niger</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>4.245,18.645275 4.245277,19.146664 5.812499,19.44611 7.450807,20.852863 11.986475,23.522305 13.543888,23.16861 14.234999,22.614166 14.997889,23.000591 15.202499,21.495831 15.996666,20.353054 15.489166,16.914165 13.468887,14.46111 13.62512,13.718338 12.459166,13.066111 10.724165,13.386389 9.634932,12.80243 7.815,13.352777 6.933332,12.997221 6.423055,13.605276 5.874722,13.749443 4.1425,13.476944 3.604459,11.693274 2.83862,12.396658 2.378054,12.240274 2.39792,11.896152 2.1425,12.694443 1.578333,12.629999 0.98917,13.047222 0.99167,13.371666 1.285306,13.34996 0.602222,13.70389 0.235048,14.915068 1.3125,15.286665 3.523981,15.35815 4.200833,16.393887 4.245,18.645275</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+		<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Zimbabwe</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>32.987808,-17.265003 33.073051,-18.34889 32.699165,-18.94445 33.018883,-19.94334 32.50222,-20.598614 32.488876,-21.34445 31.297504,-22.41476 29.893887,-22.194447 29.373623,-22.19241 29.060555,-21.79806 28.015831,-21.56611 27.713165,-20.50643 27.287453,-20.494965 27.22,-20.09167 26.166111,-19.527779 25.264431,-17.80225 27.038055,-17.959446 27.825275,-16.95917 28.759441,-16.552223 28.927219,-15.97222 30.415756,-15.63187 30.42277,-16.00917 31.276665,-16.018612 32.98114,-16.70905 32.987808,-17.265003</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+
+
+
+<Placemark>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#Style0-multi_geometry-4</styleUrl>
+			<ExtendedData>
+				<Data name='Name'>
+					<value>Central African Republic</value>
+				</Data>
+			</ExtendedData><Polygon><outerBoundaryIs><LinearRing><coordinates>19.058792,8.578382 18.988888,8.964167 20.371666,9.108332 21.715553,10.290554 21.719444,10.639444 22.866505,10.922447 23.669167,9.866943 23.517776,8.714167 24.201111,8.686943 24.192497,8.30361 25.25333,7.850555 25.206944,7.497499 26.404999,6.646388 26.437496,6.077777 27.142776,5.771944 27.45528,5.016388 25.891666,5.192499 25.542221,5.381389 24.734444,4.910832 24.394165,5.115555 23.420277,4.59111 22.895832,4.82111 22.379166,4.1275 20.585552,4.41 19.421387,5.13417 18.541943,4.335555 18.624958,3.479444 17.475277,3.713055 16.659721,3.533333 16.207222,2.220833 16.103054,2.898333 14.732777,4.623055 14.419167,6.035277 15.499008,7.52661 18.588886,8.040277 19.058792,8.578382</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+
+	</Document>
+</kml>
