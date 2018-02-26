@@ -692,7 +692,48 @@
 				<Data name='Name'>
 					<value>Estonia</value>
 				</Data>
-			</ExtendedData><MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>23.990829,58.099998 23.94777,58.147217 24.022186,58.14275 23.990829,58.099998</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>22.990829,58.597771 23.332775,58.441658 21.99416,57.922768 22.201385,58.144714 21.83194,58.504997 22.990829,58.597771</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>23.365,58.529991 23.057774,58.60833 23.24746,58.671051 23.365,58.529991</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>23.277222,58.963051 23.110828,59.024712 23.391663,58.99805 23.277222,58.963051</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>22.749718,59.0 23.045277,58.83638 22.04222,58.939987 22.749718,59.0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>25.780277,59.628876 28.015831,59.4786 28.170359,59.30978 27.426105,58.813606 27.823051,57.873878 27.372059,57.535637 26.511387,57.5261 25.294998,58.084435 24.31498,57.87183 24.55555,58.327217 23.728607,58.370827 23.495548,58.694153 23.874996,58.7686 23.483051,58.80999 23.464161,59.206383 25.780277,59.628876</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+			</ExtendedData><MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+28.01583000000001,59.4786,0 28.1643,59.30371000000001,0 27.91649,59.27366,0 27.42833,58.81590000000001,0 27.47576,58.21312,0 27.8202,57.86742,0 27.54861,57.81861,0 27.37206,57.53564,0 26.90222,57.63346,0 26.51139,57.52610000000001,0 25.29784,58.08326000000001,0 24.31498,57.87183000000001,0 24.55451,58.32471,0 24.33083,58.38666,0 24.10361,58.23554,0 23.72861,58.37083,0 23.49555,58.69415000000001,0 23.86423,58.77305000000001,0 23.48305,58.80999,0 23.43833,58.93999000000001,0 23.63666,58.97429,0 23.41041,59.01569000000001,0 23.50527,59.2268,0 24.79597,59.56499000000001,0 25.39921,59.48823000000001,0 25.47742,59.65805,0 26.97277,59.44444000000001,0 28.01583000000001,59.4786,0 
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <tesselate>1</tesselate>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+22.56527000000001,58.68665000000001,0 22.0443,58.94263000000001,0 22.57583,59.06860000000001,0 22.92972,58.98249,0 23.04528000000001,58.83638,0 22.56527000000001,58.68665000000001,0 
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <tesselate>1</tesselate>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+23.24746,58.67105,0 23.37611,58.53305000000001,0 23.05902,58.60458,0 23.24746,58.67105,0 
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <tesselate>1</tesselate>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+22.03778000000001,57.90833,0 22.19409,58.14524000000001,0 21.84451,58.28916000000001,0 22.00694,58.35666,0 21.83736,58.50666,0 22.91125,58.6168,0 23.32819,58.44694,0 22.37291,58.22138000000001,0 22.03778000000001,57.90833,0 
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+          <tesselate>1</tesselate>
+        </Polygon>
+      </MultiGeometry></Placemark>
 
 
 
