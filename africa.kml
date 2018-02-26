@@ -108,8 +108,12 @@
 			</Pair>
 		</StyleMap>
 		<Style id='Style0-multi_geometry-4'>
+            <PolyStyle>
+                <color>7fa7a5a5</color>
+                <outline>1</outline>
+              </PolyStyle>
 			<IconStyle>
-				<color>64828282</color>
+				<color>7fa7a5a5</color>
 				<scale>1.0</scale>
 				<Icon>
 					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
