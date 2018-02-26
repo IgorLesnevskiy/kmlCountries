@@ -108,6 +108,10 @@
 			</Pair>
 		</StyleMap>
 		<Style id='Style0-multi_geometry-4'>
+		 <PolyStyle>
+                        <color>7fa3b3be</color>
+                        <outline>1</outline>
+                      </PolyStyle>
 			<IconStyle>
 				<color>64828282</color>
 				<scale>1.0</scale>
